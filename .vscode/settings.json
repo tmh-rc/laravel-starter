@@ -1,0 +1,64 @@
+{
+    "[php]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+    },
+    "[vue]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[blade]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "blade.format.enable": true,
+    "phpfmt.php_bin": "php",
+    "phpfmt.passes": [
+        "AlignPHPCode",
+        "AlignTypeHint",
+        "AddMissingParentheses",
+        "ConvertOpenTagWithEcho",
+        "IndentTernaryConditions",
+        "JoinToImplode",
+        "PSR2KeywordsLowerCase",
+        "PSR2LnAfterNamespace",
+        "PSR2CurlyOpenNextLine",
+        "PSR2ModifierVisibilityStaticOrder",
+        "PSR2SingleEmptyLineAndStripClosingTag",
+        "ReindentSwitchBlocks",
+        "RemoveUseLeadingSlash",
+        "SpaceBetweenMethods",
+        "ShortArray",
+        "DoubleToSingleQuote",
+        "NewLineBeforeReturn",
+        "ReplaceBooleanAndOr",
+        "SortUseNameSpace"
+    ],
+    "phpfmt.exclude": ["ReindentComments", "StripNewlineWithinClassBody", "AddMissingParentheses"],
+    "phpfmt.psr2": true,
+    "html.format.wrapAttributes": "preserve"
+}
