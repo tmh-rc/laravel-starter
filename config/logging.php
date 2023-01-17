@@ -70,6 +70,15 @@ return [
             'days' => 14,
         ],
 
+        'sql' => [
+            'enabled' => env('LOG_SQL_ENABLED', false),
+            'driver' => env('LOG_SQL_DRIVER', 'single'), // single or daily
+            'path' => storage_path('logs/sql.log'),
+            'level' => env('LOG_LEVEL', 'debug'),
+            'days' => 14,
+            'permission' => 0664,
+        ],
+
         'slack' => [
             'driver' => 'slack',
             'url' => env('LOG_SLACK_WEBHOOK_URL'),
